@@ -8,7 +8,7 @@ int main()
 	string input;
 	getline(cin, input);
 	int numberOfWord = 1;
-	for (int i = 0; i < input.length(); i++)
+	for (unsigned int i = 0; i < input.length(); i++)
 	{
 		if (input.at(i) == ' ')
 		{
@@ -18,7 +18,7 @@ int main()
 	int n = 0;
 	int m = 0;
 	string *str = new string[numberOfWord];
-	for (int i = 0; i < input.length(); i++)
+	for (unsigned int i = 0; i < input.length(); i++)
 	{
 		if (input.at(i) == ' ')
 		{
